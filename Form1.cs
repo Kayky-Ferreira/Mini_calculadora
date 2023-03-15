@@ -25,11 +25,12 @@ namespace Mini_calculadora
 
         private void btn_calcular_Click(object sender, EventArgs e)
         {
+            //ligando as Variáveis as caixas
             valor1 = float.Parse(primeiro_valor.Text);
             valor2 = float.Parse(segundo_valor.Text);
-            calculo = resultado_da_soma.Text;
+            calculo = operacao.Text;
             
-
+            //Switch para fazer os calculos
             switch (calculo)
             {
                 case "+": // Caso digitar + ele vai somar
@@ -48,22 +49,29 @@ namespace Mini_calculadora
                     resultado = -1;
                     break;
 
-
-            if (resultado == -1)
-                    {
-                        Aviso.Text = "Escolha apenas os caracteres mostrados no topo da página";
-                        operacao.Text = "!!!!";
-                    }
-
-
             }
 
-
+            //If para imprimir os calculos
+            if (resultado == -1)
+            {
+                        Aviso.Text = "Escolha apenas os caracteres mostrados no topo da página";
+                        operacao.Text = "!!!!!!!!!!!!!!!!!";
+            }
+            else
+            {
+                resultado_do_calculo.Text = Convert.ToString("O resultado é: " + resultado);
+            }
 
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        //Config para o botão para limpar todos o campos de texto
+        private void btn_limpar_Click(object sender, EventArgs e)
         {
+            primeiro_valor.Text = "";
+            segundo_valor.Text = "";
+            operacao.Text = "";
+            Aviso.Text = "";
+            resultado_do_calculo.Text = "O resultado é: ___";
 
         }
     }
