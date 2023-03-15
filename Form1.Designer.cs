@@ -43,12 +43,11 @@
             // 
             // label1
             // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label1.AutoSize = true;
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(151, 10);
+            this.label1.Location = new System.Drawing.Point(157, 3);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(73, 20);
             this.label1.TabIndex = 0;
@@ -56,12 +55,11 @@
             // 
             // label2
             // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label2.AutoSize = true;
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(19, 35);
+            this.label2.Location = new System.Drawing.Point(25, 28);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(342, 13);
             this.label2.TabIndex = 1;
@@ -77,11 +75,10 @@
             // label3
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(79, 113);
+            this.label3.Location = new System.Drawing.Point(79, 115);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(56, 16);
             this.label3.TabIndex = 4;
@@ -90,11 +87,10 @@
             // label4
             // 
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(79, 139);
+            this.label4.Location = new System.Drawing.Point(79, 141);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(56, 16);
             this.label4.TabIndex = 6;
@@ -114,7 +110,7 @@
             this.resultado_do_calculo.BackColor = System.Drawing.Color.Transparent;
             this.resultado_do_calculo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.resultado_do_calculo.ForeColor = System.Drawing.Color.White;
-            this.resultado_do_calculo.Location = new System.Drawing.Point(120, 203);
+            this.resultado_do_calculo.Location = new System.Drawing.Point(109, 203);
             this.resultado_do_calculo.Name = "resultado_do_calculo";
             this.resultado_do_calculo.Size = new System.Drawing.Size(132, 16);
             this.resultado_do_calculo.TabIndex = 7;
@@ -166,7 +162,7 @@
             this.Aviso.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.Aviso.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Aviso.ForeColor = System.Drawing.Color.Red;
-            this.Aviso.Location = new System.Drawing.Point(15, 83);
+            this.Aviso.Location = new System.Drawing.Point(25, 88);
             this.Aviso.Name = "Aviso";
             this.Aviso.Size = new System.Drawing.Size(0, 13);
             this.Aviso.TabIndex = 12;
@@ -177,7 +173,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = global::Mini_calculadora.Properties.Resources.fundo_azul;
-            this.ClientSize = new System.Drawing.Size(379, 402);
+            this.ClientSize = new System.Drawing.Size(379, 354);
             this.Controls.Add(this.Aviso);
             this.Controls.Add(this.operacao);
             this.Controls.Add(this.btn_limpar);

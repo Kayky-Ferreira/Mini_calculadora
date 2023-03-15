@@ -12,9 +12,9 @@ namespace Mini_calculadora
 {
     public partial class Form1 : Form
     {
-        float valor1;
-        float valor2;
-        float resultado;
+        double valor1;
+        double valor2;
+        double resultado;
         string calculo;
 
 
@@ -26,8 +26,8 @@ namespace Mini_calculadora
         private void btn_calcular_Click(object sender, EventArgs e)
         {
             //ligando as Variáveis as caixas
-            valor1 = float.Parse(primeiro_valor.Text);
-            valor2 = float.Parse(segundo_valor.Text);
+            valor1 = double.Parse(primeiro_valor.Text);
+            valor2 = double.Parse(segundo_valor.Text);
             calculo = operacao.Text;
             
             //Switch para fazer os calculos
