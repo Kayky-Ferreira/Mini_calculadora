@@ -54,8 +54,8 @@ namespace Mini_calculadora
             //If para imprimir os calculos
             if (resultado == -1)
             {
-                        Aviso.Text = "Escolha apenas os caracteres mostrados no topo da página";
-                        operacao.Text = "!!!!!!!ATENÇÃO!!!!!!!";
+                        Aviso.Text = "Escolha apenas os caracteres mostrados no topo da página".ToUpper();
+                        operacao.Text = "!!!!!!!atenção!!!!!!!".ToUpper();
             }
             else
             {
