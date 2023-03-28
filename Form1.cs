@@ -60,6 +60,7 @@ namespace Mini_calculadora
             else
             {
                 resultado_do_calculo.Text = Convert.ToString("O resultado é: " + resultado);
+                Aviso.Text = "";
             }
 
         }
