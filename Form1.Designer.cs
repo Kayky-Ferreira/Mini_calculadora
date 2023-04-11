@@ -38,7 +38,6 @@
             this.btn_calcular = new System.Windows.Forms.Button();
             this.btn_limpar = new System.Windows.Forms.Button();
             this.operacao = new System.Windows.Forms.TextBox();
-            this.Aviso = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -155,18 +154,6 @@
             this.operacao.Size = new System.Drawing.Size(99, 20);
             this.operacao.TabIndex = 11;
             // 
-            // Aviso
-            // 
-            this.Aviso.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Aviso.AutoSize = true;
-            this.Aviso.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.Aviso.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Aviso.ForeColor = System.Drawing.Color.Red;
-            this.Aviso.Location = new System.Drawing.Point(34, 88);
-            this.Aviso.Name = "Aviso";
-            this.Aviso.Size = new System.Drawing.Size(0, 13);
-            this.Aviso.TabIndex = 12;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -174,7 +161,6 @@
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = global::Mini_calculadora.Properties.Resources.fundo_azul;
             this.ClientSize = new System.Drawing.Size(498, 354);
-            this.Controls.Add(this.Aviso);
             this.Controls.Add(this.operacao);
             this.Controls.Add(this.btn_limpar);
             this.Controls.Add(this.btn_calcular);
@@ -204,7 +190,6 @@
         private System.Windows.Forms.Button btn_calcular;
         private System.Windows.Forms.Button btn_limpar;
         private System.Windows.Forms.TextBox operacao;
-        private System.Windows.Forms.Label Aviso;
     }
 }
 

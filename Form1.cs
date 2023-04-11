@@ -54,13 +54,13 @@ namespace Mini_calculadora
             //If para imprimir os calculos
             if (resultado == -1)
             {
-                        Aviso.Text = "Escolha apenas os caracteres mostrados no topo da página".ToUpper();
+                MessageBox.Show("Erro na escolha da operação!! Escolha apenas os caracteres mostrados no topo da página");
+                        //Aviso.Text = "Escolha apenas os caracteres mostrados no topo da página".ToUpper();
                         operacao.Text = "!!!!!!!atenção!!!!!!!".ToUpper();
             }
             else
             {
                 resultado_do_calculo.Text = Convert.ToString("O resultado é: " + resultado);
-                Aviso.Text = "";
             }
 
         }
@@ -71,9 +71,9 @@ namespace Mini_calculadora
             primeiro_valor.Text = "";
             segundo_valor.Text = "";
             operacao.Text = "";
-            Aviso.Text = "";
             resultado_do_calculo.Text = "O resultado é: ___";
 
         }
+
     }
 }
